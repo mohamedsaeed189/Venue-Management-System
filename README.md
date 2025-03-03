@@ -35,4 +35,3 @@
     php artisan serve
 
 10. **Now, you can access the application:**
-    http://localhost:8000
