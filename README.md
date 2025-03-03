@@ -35,3 +35,12 @@
     php artisan serve
 
 10. **Now, you can access the application:**
+
+### Accessing the endpoints
+
+1. **Open Postman**
+
+2. **Import laravel venue.postman_collection.json file**
+
+3. **Now, you can test the endpoints after bootstraping the app**
+
