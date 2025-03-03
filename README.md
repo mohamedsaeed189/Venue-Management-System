@@ -1,38 +1,38 @@
 # Venue Management System
 
-## Setup and Run
-
 ### Prerequisites
 
 - PHP ^8.2
 - Composer
-- Node.js and npm
+- MYSQL
 
 ### Installation
 
 1. **Clone the repository:**
-   git clone https://github.com/mohamedsaeed189/Venue-Management-System
+    git clone https://github.com/mohamedsaeed189/Venue-Management-System
 
 2. **Change directory to  project directory:**
-  cd venue-management-system
+    cd venue-management-system
 
 3. **Install PHP dependencies:**
     composer install
 
-4. **Install Node.js dependencies:**
-    npm install
+4. **Create MySQL Database:** 
+    venue_management_system
 
-5. **Copy the example environment file and configure the environment variables:**
+5. **Copy the example environment file and configure the :**
     cp .env.example .env
 
-6. **Generate the application key:**
+6. **Configure environment variables [DB_DATABASE, DB_USERNAME, DB_PASSWORD] in .env file**
+
+7. **Generate the application key:**
     php artisan key:generate
 
-7. **Run database migrations:**
+8. **Run database migrations:**
     php artisan migrate
 
-8. **Run the development server:**
+9. **Run the development server:**
     php artisan serve
 
-9. **Now, you can access the application:**
+10. **Now, you can access the application:**
     http://localhost:8000
